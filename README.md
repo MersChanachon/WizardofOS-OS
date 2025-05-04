@@ -27,18 +27,9 @@ Mood_Detection.ipynb: Main notebook with training pipeline and model evaluation.
 dataset.zip: Zipped dataset required for training/testing (must be extracted).
 
 🛠️ Setup
-Make sure to install the required packages:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Or install manually within Colab:
-
-python
-Copy
-Edit
+Make sure to install the required packages directly in google colab:
 !pip install memory_profiler
+
 🚀 Usage
 Mount Google Drive (if using Colab).
 
@@ -53,5 +44,4 @@ Includes classification report with precision, recall, and F1-score.
 
 Confusion matrix for visualization of mood detection accuracy.
 
-📎 License
-Include license info here (e.g., MIT, Apache 2.0).
+
