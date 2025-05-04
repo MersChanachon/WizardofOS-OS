@@ -6,7 +6,7 @@ The data set can be found from here : https://drive.google.com/drive/folders/1cB
 This project focuses on building a deep learning model to detect moods or emotions from audio or other data modalities. It includes all necessary preprocessing, training, evaluation, and memory profiling steps to monitor model performance.
 
 📁 Dataset
-The dataset is included as a zipped file in this repository (/dataset.zip).
+Please download the dataset from the linkk provided above.
 
 Please unzip it before running the notebook.
 
