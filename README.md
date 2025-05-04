@@ -1,47 +1,53 @@
-# WizardofOS-OS
+# 🎧 WizardofOS-OS: Mood Detection Using Deep Learning
 
-The data set can be found from here : https://drive.google.com/drive/folders/1cBCoxofrI9ymGLgaSakP9gTMPw5ANlFM?usp=drive_link
+Detect human moods from audio using deep learning!  
+This project implements a Keras/TensorFlow-based model to classify emotions from audio clips, complete with memory profiling and performance evaluation.
 
-🎧 Mood Detection Using Deep Learning
-This project focuses on building a deep learning model to detect moods or emotions from audio or other data modalities. It includes all necessary preprocessing, training, evaluation, and memory profiling steps to monitor model performance.
+---
 
-📁 Dataset
-Please download the dataset from the linkk provided above.
+## 📂 Dataset
 
-Please unzip it before running the notebook.
+👉 [Download the dataset here](https://drive.google.com/drive/folders/1cBCoxofrI9ymGLgaSakP9gTMPw5ANlFM?usp=drive_link)  
 
-Ensure the dataset path is correctly referenced in the notebook after extraction.
+> **Note:**  
+> - Unzip the file after downloading.  
+> - Update the dataset path in the notebook accordingly.
 
-🧠 Features
-Mood/Emotion classification using deep learning (Keras/TensorFlow).
+---
 
-Evaluation using confusion matrix and classification report.
+## 🧠 Features
 
-Memory usage profiling during training.
+✅ Mood/Emotion classification using deep learning (Keras/TensorFlow)  
+✅ Preprocessing, training, and evaluation pipelines  
+✅ Confusion matrix and classification report for model performance  
+✅ Real-time memory usage profiling during training  
+✅ Fully compatible with **Google Colab**
 
-Code compatible with Google Colab.
+---
 
-📒 Contents
-Mood_Detection.ipynb: Main notebook with training pipeline and model evaluation.
+## 📒 Project Structure
+📁 WizardofOS-OS
 
-dataset.zip: Zipped dataset required for training/testing (must be extracted).
+┣ 📂 dataset.zip # Zipped audio dataset
 
-🛠️ Setup
-Make sure to install the required packages directly in google colab:
-!pip install memory_profiler
+┣ 📓 Mood_Detection.ipynb # Main Colab notebook
 
-🚀 Usage
-Mount Google Drive (if using Colab).
+┗ 📄 README.md # Project overview
 
-Extract dataset.zip to the appropriate path.
 
-Run Mood_Detection.ipynb step-by-step.
+---
 
-Review memory usage and classification metrics at the end.
+## 🛠️ Setup Instructions
 
-📊 Evaluation
-Includes classification report with precision, recall, and F1-score.
-
-Confusion matrix for visualization of mood detection accuracy.
-
+1. **Install required packages:**
+   ```bash
+   !pip install memory_profiler
+2. **Mount Google Drive (in Colab):**
+    ```bash
+    from google.colab import drive
+    drive.mount('/content/drive')
+3. **Extract the dataset:**
+    ```bash
+    !unzip "/content/drive/MyDrive/your_dataset_path/dataset.zip" -d "/content/dataset"
+4. **Run Mood_Detection.ipynb step by step**
 
